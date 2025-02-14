@@ -1,0 +1,44 @@
+{
+    "Format": "2.5.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+              "Stone_Description": "A common material that can be used in building, although it does look tasty.",
+            },
+		},
+            {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "390": {
+                    "Name": "Stone",
+                    "DisplayName": "[LocalizedText Strings\\Objects:Stone_Name]",
+                    "Description": "[LocalizedText Strings\\Objects:Stone_Description]",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 2,
+                    "Texture": null,
+                    "SpriteIndex": 390,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": -20,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_gray"
+                    ],
+                    "CustomFields": null,
+                }
+            }
+            }
+    ]
+}

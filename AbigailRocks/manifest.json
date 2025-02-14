@@ -1,0 +1,11 @@
+{
+    "Name": "AbigailRocks",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Let's you eat rocks, just like abigail.",
+    "UniqueID": "NotAGardener.Rock",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
