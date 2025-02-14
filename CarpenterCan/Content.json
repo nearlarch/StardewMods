@@ -1,0 +1,29 @@
+{
+  "Format": "2.5.0",
+  "Changes": [
+{
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/CarpenterTrashCan.tmx",
+            "ToArea": {"X": 20, "Y": 25, "Width": 1, "Height": 2 },
+            "PatchMode": "Overlay"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/GarbageCans",
+      "TargetField": [
+        "GarbageCans"
+      ],
+      "Entries": {
+        "NotAGardener.Can_Carpenter": {
+          "Items": [
+            {
+              "ID": "NotAGardener.Can_Item",
+              "RandomItemId": [ "(O)709", "(O)388", "(O)20", "(O)390", "(O)787" ]
+			}
+        ]
+      }
+    }
+}
+]
+}

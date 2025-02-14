@@ -1,0 +1,11 @@
+{
+    "Name": "CarpenterCan",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Adds a trash can next to robin's house.",
+    "UniqueID": "NotAGardener.Can",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
