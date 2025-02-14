@@ -1,0 +1,11 @@
+{
+    "Name": "MailboxCleaner",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Removes the junk from the mailbox (Includes money, gifts, ect)",
+    "UniqueID": "NotAGardener.Mailbox",
+    "UpdateKeys": [ "Nexus:" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
