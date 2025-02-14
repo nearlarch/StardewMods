@@ -5,7 +5,7 @@
 			"Target": "Data/Shops",
 			"Entries": {
 				"{{ModId}}_MarketShop": {
-					"OpenSound": "parrot",
+					"OpenSound": "Raccoon",
 					"Items": [
 						{
 							"Id": "{{ModId}}_Rice",
