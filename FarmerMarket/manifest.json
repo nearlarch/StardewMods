@@ -1,0 +1,11 @@
+{
+    "Name": "FarmerMarket",
+    "Author": "NotAGardener",
+    "Version": "1.0.2",
+    "Description": "Adds a new stop with the use of Central Station to add a new area!",
+    "UniqueID": "NotAGardener.Farmer",
+    "UpdateKeys": [ "Nexus:31617" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

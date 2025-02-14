@@ -1,0 +1,13 @@
+{
+  "Format": "2.5.0",
+  "Changes": [
+    {
+	"Action": "Include",
+	"FromFile": "assets/ShopEdit.json"
+	},
+	{
+	"Action": "Include",
+	"FromFile": "assets/MapInclude.json"
+}
+]
+}

@@ -1,0 +1,255 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{ModId}}_MarketShop": {
+					"OpenSound": "parrot",
+					"Items": [
+						{
+							"Id": "{{ModId}}_Rice",
+							"ItemId": "(O)273",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Amaranth",
+							"ItemId": "(O)299",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_Grape",
+							"ItemId": "(O)301",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_Hop",
+							"ItemId": "(O)302",
+							"Price": 20
+						},
+						{
+							"Id": "{{ModId}}_RareSeed",
+							"ItemId": "(O)347",
+							"Price": 1000
+						},
+						{
+							"Id": "{{ModId}}_Fairy",
+							"ItemId": "(O)425",
+							"Price": 350
+						},
+						{
+							"Id": "{{ModId}}_Tulip",
+							"ItemId": "(O)427",
+							"Price": 20
+						},
+						{
+							"Id": "{{ModId}}_Jazz",
+							"ItemId": "(O)429",
+							"Price": 30
+						},
+						{
+							"Id": "{{ModId}}_Sunflower",
+							"ItemId": "(O)431",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Coffee",
+							"ItemId": "(O)433",
+							"Price": 10
+						},
+						{
+							"Id": "{{ModId}}_Poppy",
+							"ItemId": "(O)453",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_Spangle",
+							"ItemId": "(O)455",
+							"Price": 70
+						},
+						{
+							"Id": "{{ModId}}_Parsnip",
+							"ItemId": "(O)472",
+							"Price": 25
+						},
+						{
+							"Id": "{{ModId}}_Bean",
+							"ItemId": "(O)473",
+							"Price": 30
+						},
+						{
+							"Id": "{{ModId}}_Cauliflower",
+							"ItemId": "(O)474",
+							"Price": 150
+						},
+						{
+							"Id": "{{ModId}}_Potato",
+							"ItemId": "(O)475",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Garlic",
+							"ItemId": "(O)476",
+							"Price": 40
+						},
+						{
+							"Id": "{{ModId}}_Kale",
+							"ItemId": "(O)477",
+							"Price": 80
+						},
+						{
+							"Id": "{{ModId}}_Rhubarb",
+							"ItemId": "(O)478",
+							"Price": 150
+						},
+						{
+							"Id": "{{ModId}}_Melon",
+							"ItemId": "(O)479",
+							"Price": 150
+						},
+						{
+							"Id": "{{ModId}}_Tomato",
+							"ItemId": "(O)480",
+							"Price": 30
+						},
+						{
+							"Id": "{{ModId}}_Blueberry",
+							"ItemId": "(O)481",
+							"Price": 25
+						},
+						{
+							"Id": "{{ModId}}_Pepper",
+							"ItemId": "(O)482",
+							"Price": 20
+						},
+						{
+							"Id": "{{ModId}}_Wheat",
+							"ItemId": "(O)483",
+							"Price": 15
+						},
+						{
+							"Id": "{{ModId}}_Raddish",
+							"ItemId": "(O)484",
+							"Price": 60
+						},
+						{
+							"Id": "{{ModId}}_RedCabage",
+							"ItemId": "(O)485",
+							"Price": 150
+						},
+						{
+							"Id": "{{ModId}}_Corn",
+							"ItemId": "(O)487",
+							"Price": 30
+						},
+						{
+							"Id": "{{ModId}}_Eggplant",
+							"ItemId": "(O)488",
+							"Price": 40
+						},
+						{
+							"Id": "{{ModId}}_Artichoke",
+							"ItemId": "(O)489",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_Pumpkin",
+							"ItemId": "(O)490",
+							"Price": 250
+						},
+						{
+							"Id": "{{ModId}}_BokChoy",
+							"ItemId": "(O)491",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Yam",
+							"ItemId": "(O)492",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_Cranberry",
+							"ItemId": "(O)493",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Beet",
+							"ItemId": "(O)494",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_SpringS",
+							"ItemId": "(O)495",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_SummerS",
+							"ItemId": "(O)496",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_FallS",
+							"ItemId": "(O)497",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_WinterS",
+							"ItemId": "(O)498",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Strawberry",
+							"ItemId": "(O)745",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Mixed",
+							"ItemId": "(O)770",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Cacti",
+							"ItemId": "(O)802",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Taro",
+							"ItemId": "(O)831",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Pineapple",
+							"ItemId": "(O)833",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_BFert",
+							"ItemId": "(O)368",
+							"Price": 25
+						},
+						{
+							"Id": "{{ModId}}_TFert",
+							"ItemId": "(O)805",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_QFert",
+							"ItemId": "(O)369",
+							"Price": 45
+						},
+						{
+							"Id": "{{ModId}}_Sgro",
+							"ItemId": "(O)465",
+							"Price": 30
+						},
+						{
+							"Id": "{{ModId}}_DSgro",
+							"ItemId": "(O)466",
+							"Price": 60
+						},
+					]
+				}
+			}
+		}
+	]
+}
