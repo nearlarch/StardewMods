@@ -1,0 +1,260 @@
+{
+  "Format": "2.5.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Clint",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Robin",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Lewis",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pam",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Abigail",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Penny",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gus",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Baby",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Bear",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Birdie",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Leo",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Caroline",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Dana",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Demetrius",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Dwarf",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Elliott",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Emily",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Evelyn",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gourmand",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Govenor",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Grandpa",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Gunther",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Haley",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Harvey",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Henchman",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/IslandParrot",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Jas",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Jodi",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Junimo",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Kent",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Krobus",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Leah",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Linus",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Marine",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Hospital",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Morris",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/MrQi",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sam",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sandy",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sebastian",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Shane",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/TrashBear",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Vincent",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Willy",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Wizard",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Pierre",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Marnie",
+      "FromFile": "Assets/Beloved.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/George",
+      "FromFile": "Assets/Beloved.png"
+    }
+   ]
+}

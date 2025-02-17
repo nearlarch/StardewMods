@@ -1,0 +1,11 @@
+{
+    "Name": "Krobus",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Turns EVERYONE into Krobus.",
+    "UniqueID": "NotAGardener.Krobus",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
