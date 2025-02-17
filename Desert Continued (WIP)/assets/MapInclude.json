@@ -1,0 +1,32 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_DesertC",
+			"FromFile": "Assets/Continue.tmx"
+		},
+       	        {
+           	 "Action": "EditMap",
+          	  "Target": "Maps/Desert",
+           	 "MapProperties": {
+            	},
+           	 "AddWarps": [
+                "1 25 NotAGardener.Continued_DesertC 20 20",
+                "1 26 NotAGardener.Continued_DesertC 20 20",
+                "1 27 NotAGardener.Continued_DesertC 20 20",
+                "1 28 NotAGardener.Continued_DesertC 20 20",
+            ]
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_DesertC": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_DesertC"
+					}
+				}
+			}
+		}
+	]
+}
