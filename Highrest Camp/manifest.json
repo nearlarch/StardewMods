@@ -1,0 +1,11 @@
+{
+    "Name": "Highrest Camp",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "The flower dance is always open now, but a dark secret is lurking.",
+    "UniqueID": "NotAGardener.FL",
+    "UpdateKeys": [ "Nexus:31936" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

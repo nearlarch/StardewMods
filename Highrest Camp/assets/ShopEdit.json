@@ -1,0 +1,61 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{ModId}}_GuildShop": {
+					    "Owners": [
+                        {
+                            "Name": "Any",
+							"Portrait": "",
+                            "Dialogues": [
+                                {
+                                    "Id": "Anytime",
+                                    "Dialogue": "A Note on the table... \"I may not be here all the time, so take what you like and leave the money.\""
+								},
+								],
+						},
+						],
+					"Items": [
+						{
+							"Id": "{{ModId}}_Wine",
+							"ItemId": "(O)348",
+							"Price": 500
+						},
+						{
+							"Id": "{{ModId}}_Juice",
+							"ItemId": "(O)350",
+							"Price": 120
+						},
+						{
+							"Id": "{{ModId}}_Tentkit",
+							"ItemId": "(O)TentKit",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Cheese",
+							"ItemId": "(O)424",
+							"Price": 120
+						},
+						{
+							"Id": "{{ModId}}_DriedBlackberry",
+							"ItemId": "FLAVORED_ITEM DriedFruit 410",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Hazelnut",
+							"ItemId": "(O)408",
+							"Price": 25
+						},
+						{
+							"Id": "{{ModId}}_Plum",
+							"ItemId": "(O)406",
+							"Price": 30
+						}
+					]
+				}
+			}
+		}
+	]
+}

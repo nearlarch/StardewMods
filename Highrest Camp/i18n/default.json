@@ -1,0 +1,159 @@
+{
+// NPC dialogue
+
+"intro": "A customer?!$1#$b#How did you get into the area?$1#$b#The bridge is repaired? How that is wonderful news!$1",
+
+//Monday
+
+"Mon.1": "The tent near the entrance is free... if the raccoons havnt taken it over.$2",
+"Mon.2": "You're back! How nice!$1",
+"Mon.3": "This campsite used to be thriving, until lewis locked us away...$2",
+
+//Tuesday
+
+"Tue.1": "You're back!#$b#...Why? This place is a dump...$2",
+"Tue.2": "I wonder if now that the campsite is back people will come back...#$b#Let's hope so...$2",
+"Tue.3": "I always knew something was up with Lewis...",
+
+//Wensday
+
+"Wen.1": "I may look like an old disgruntled man but I have alot of stories.$1",
+"Wen.2": "I am a bit hungry... Too bad I only have Joja cola here.",
+"Wen.3": "How is George doing? We used to be good friends.",
+
+//Thursday
+
+"Thu.1": "I don't want to talk today...$2",
+"Thu.2": "This is the day I was locked away...$2#$b#Please leave me be...$2",
+"Thu.3": "Let me rest with my thoughts...$2",
+
+//Friday
+
+"Fri.1": "The Junimos beg me to move in... But since I am still here they can't.$1",
+"Fri.2": "The valley sure has changed since I have been gone...",
+"Fri.3": "I have no intention to clean out those tents, I am too old anyway.",
+
+//Saturday
+
+"Sat.1": "Y'know I used to be abled to relax the most on the weekend#$b#But now I just spend the weekend worrying if anyone will come to the campsite.$2",
+"Sat.2": "Ain’t much to do but survive. I’ve gotten good at it.",
+"Sat.3": "That wizard tower is the only thing I can see in the valley from here.",
+
+//Sunday
+
+"Sun.1": "Monday is almost here, exciting huh?$1",
+"Sun.2": "Got any money? I may see how JojaMart is doing.",
+"Sun.3": "I am suprised none of the citizens got trapped here with me...",
+
+//Saloon
+
+"Sal.1": "I used to come here to relax, I guess old habits die hard.",
+"Sal.2": "My favorite was the whiskey that Gus only gave to regulars, Guess he doesn't have it anymore.#2",
+"Sal.3": "You getting anything?",
+
+//Forest
+
+"Hiding.1": "I come here to reflect and relax sometimes...",
+"Hiding.2": "I like the wizard tower, it calms me.$1",
+"Hiding.3": "The nature around here is just bueatiful.$1",
+"Pier.1": "I come here to reflect and relax sometimes...",
+"Pier.2": "I like the fishes, they calm me.$1",
+"Pier.3": "The nature around here is just bueatiful.$1",
+
+//Alex's House
+
+"Alex.1": "Me and george are pals, we used to watch TV together.$1",
+"Alex.2": "George is a bit grumpier than I remember him...",
+"Alex.3": "I wonder how George got into a wheelchair...",
+
+//Rain
+
+"Rainy": "You're drenched! Take a seat, I will see if I can find you something.",
+
+// Heart Weekdays
+
+//Monday
+
+"Heart4Mon.1": "You've been really nice, helping me get back into the valley. Thank you.$1",
+"Heart4Mon.2": "You are a really good forager, Keep it up!$1",
+"Heart4Mon.3": "Say, how long ago did you move in?",
+
+//Tuesday
+
+"Heart4Tue.1": "Been hard at work on that farm?#$b#I can tell by the sweat on your brow.",
+"Heart4Tue.2": "I like that outfit, It suits you.$1",
+"Heart4Tue.3": "Y'know, I used to have a wife... Until... Nevermind...$2",
+
+//Wensday
+
+"Heart4Wen.1": "You saved me from that campsite, I owe you a thousand thanks.$1",
+"Heart4Wen.2": "I used to make some cool things out of the sticks I would find in the campsite, sometimes the sticks would glow.$1",
+"Heart4Wen.3": "You know, Those trees probably didn't have food in them anyway... Why did I let her go...$2",
+
+//Thursday
+
+"Heart4Thu.1": "Have you found the secret notes I hid around the valley? I tried to communicate with you to save me.",
+"Heart4Thu.2": "Who created the junimos? Who knows.",
+"Heart4Thu.3": "Say, who is \"Kent\"?",
+
+//Friday
+
+"Heart4Fri.1": "Almost the weekend, will probably just relax...",
+"Heart4Fri.2": "Hi! Need something?",
+"Heart4Fri.3": "How is that farm going? I can smell the crops from here.",
+
+//Saturday
+
+"Heart4Sat.1": "Time to relax, Jeez I hate that campsite so much now...",
+"Heart4Sat.2": "So, why did you choose to come to the valley?",
+"Heart4Sat.3": "Why is Shane so rude...?$2",
+
+//Sunday
+
+"Heart4Sun.1": "Why does the weekend have to go so fast..",
+"Heart4Sun.2": "You're very active today, what's going on?",
+"Heart4Sun.3": "I havn't seen the Junimos lately...",
+
+//Event
+
+"Event.1": "Ah, @. I expected I would be seeing you. The junimos like to tell me things that happen in the valley.$1",
+"Event.2": "I think it's about time I tell you the story on how I got locked up here.$2",
+"Event.3": "Well, Lewis is very proud of the valley, but when people started coming to my campsite more and more...",
+"Event.4": "He destroyed the bridge connecting the campsite to the valley..$2",
+"Event.5": "Well now you know, I just hope Lewis has changed his ways...$2",
+
+//Lost Brothers Event
+
+"Event2.1": "Just one moment, I will be with you shortly.",
+"Event2.2": "Okay...",
+"Event2.3": "You.. What are you doing here?$5",
+"Event2.4": "Look... I know we have had our differenc-",
+"Event2.5": "Differences?! You tried to sabotage my entire life! I don't know where you went for 5 years, and I don't care. Now leave me alone... Brother.#$b#If I can even still call you that..$2",
+"Event2.6": "Wait, Please... Let me try and explain.",
+"Event2.7": "You can try, but I won't listen, Not after you abandoned me for that campsite in the middle of our biggest spell discovery.#$b#I could have died!",
+"Event2.8": "I didn't mean to abandon you, I was trapped.",
+"Event2.9": "I am giving you 1 chance to explain. If you blow it I will banish you from this tower with a spell so strong it could destroy Yoba.",
+"Event2.10": "Well... I was on the campsite on the Thursday we were supposed to attempt the spell... and I heard a loud bang from the bridge, Lewis was standing there with a jack-hammer and a grin, with the destroyed bridge...$2#$b#I tried calling out for help, until @ moved into town and saved me...",
+"Event2.11": "Oh... I am sorry brother, I did not realize how hard you had it... I hope we can be on better terms now?",
+"Event2.12": "Sure, Brother.$1",
+
+//Strings In Maps
+
+"tentdoor1": "Free to use tent, Come on in!",
+"notent1": "You hear things that cannot be unheard...better not go in.",
+"notent2": "You can't sleep right now, there are monsters nearby.",
+"notent3": "You can't enter this tent because of [intentional mod designs]",
+"notent4": "Keahi smushed a stink bug into the sleeping bag and now the tent is unbearable to be in.",
+"notent5": "A mysterious power seems to have sealed the tent shut.",
+"notent6": "Have you never heard of personal property? This is not yours.",
+"notent7": "This tent appears to already be occupied... by several raccoons.",
+"Bookshelf": "Some old worn out books... their spine is in shreads.",
+"Campsite": "Highrest Campsite",
+
+//Gift Tastes
+
+"Bad": "I hate this! Get it out of my sight!",
+"Neutral": "Uh, Thank you... I guess.",
+"Liked": "How interesting, I will inspect it more later.",
+"Good": "What a nice item! I will add it to my collection!"
+}

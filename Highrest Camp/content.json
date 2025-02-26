@@ -1,0 +1,25 @@
+{
+	"Format": "2.5.0",
+	"Changes": [
+		{
+	"Action": "Include",
+	"FromFile": "assets/MapInclude.json",
+},
+{
+	"Action": "Include",
+	"FromFile": "assets/Manager.json",
+},
+{
+	"Action": "Include",
+	"FromFile": "assets/CJBWarp.json",
+},
+{
+	"Action": "Include",
+	"FromFile": "assets/Garbage.json",
+},
+{
+	"Action": "Include",
+	"FromFile": "assets/ShopEdit.json"
+}
+]
+}

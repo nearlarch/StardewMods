@@ -1,0 +1,17 @@
+{
+	"Changes": [
+	{
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+    "Entries": {
+        "{{ModId}}_PufferVillage": {
+            "Id": "{{ModId}}_Flower",
+            "DisplayName": "{{i18n:Campsite}}"
+        },
+    },
+		"When": {
+		"HasMod |contains=CJBok.CheatsMenu": true
+		}
+}
+]
+}

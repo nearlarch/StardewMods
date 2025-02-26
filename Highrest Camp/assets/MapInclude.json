@@ -1,0 +1,262 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"FromFile": "assets/Bridge.tmx",
+			"ToArea": {
+				"X": 1,
+				"Y": 75,
+				"Width": 4,
+				"Height": 1
+			},
+			"PatchMode": "ReplaceByLayer"
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"MapProperties": {},
+			"AddWarps": [
+				"0 75 NotAGardener.FL_Flower 119 18",
+				"0 76 NotAGardener.FL_Flower 119 19"
+			]
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Flower",
+			"FromFile": "assets/Flower.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_Tent": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_Tent"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Tent",
+			"FromFile": "Assets/Tent.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_Guild": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_Guild"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"FromFile": "assets/SVEBridge.tmx",
+			"ToArea": {
+				"X": 0,
+				"Y": 71,
+				"Width": 7,
+				"Height": 17
+			},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Flower",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 26,
+						"Y": 21
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent1}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 51,
+						"Y": 19
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent2}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 41,
+						"Y": 21
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent3}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 44,
+						"Y": 14
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent4}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 54,
+						"Y": 10
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent5}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 33,
+						"Y": 12
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent6}}\""
+					}
+				},
+				{
+					"Position": {
+						"X": 25,
+						"Y": 12
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"TouchAction": "Spiderbuttons.BETAS_Message \"{{i18n:notent7}}\""
+					}
+				}
+			]
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Guild",
+			"FromFile": "Assets/guild.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_Guild",
+			"FromFile": "Assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_Guild",
+			"Entries": {
+				"NotAGardener.FL_Guild/Friendship {{ModId}}_Tantelot 750": "desolate/-100 -100/farmer 6 19 0 {{ModId}}_Tantelot 4 12 2/skippable/playsound doorOpen/viewport 6 15/move farmer 0 -4 3 false/move farmer -2 0 0 false/move farmer 0 -1 0 false/pause 400/speak {{ModId}}_Tantelot \"{{i18n: Event.1}}\"/pause 350/speak {{ModId}}_Tantelot \"{{i18n:Event.2}}\"/pause 350/speak {{ModId}}_Tantelot \"{{i18n:Event.3}}\"/pause 150/emote {{ModId}}_Tantelot 40/pause 150/speak {{ModId}}_Tantelot \"{{i18n:Event.4}}\"/pause 150/playsound batScreech/jump farmer 5/emote farmer 16/pause 100/emote {{ModId}}_Tantelot 28/pause 200/speak {{ModId}}_Tantelot \"{{i18n:Event.5}}\"/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Entries": {
+				"LostBrothers/Friendship {{ModId}}_Tantelot 1450": "elliottPiano/-100 -100/farmer -100 -100 0 Wizard 2 14 0 {{ModId}}_Tantelot 8 23 0/viewport 7 17/playsound doorOpen/pause 200/speak Wizard \"{{i18n:Event2.1}}\"/pause 220/emote {{ModId}}_Tantelot 28/pause 220/speak Wizard \"{{i18n:Event2.2}}\"/move Wizard 5 0 2/jump Wizard 5/emote Wizard 16/playsound batScreech/speak Wizard \"{{i18n:Event2.3}}\"/pause 250/speak {{ModId}}_Tantelot \"{{i18n:Event2.4}}\"/speak Wizard \"{{i18n:Event2.5}}\"/pause 200/move {{ModId}}_Tantelot 0 -5 0 true/speak {{ModId}}_Tantelot \"{{i18n:Event2.6}}\"/pause 200/speak Wizard \"{{i18n:Event2.7}}\"/pause 200/speak {{ModId}}_Tantelot \"{{i18n:Event2.8}}\"/emote Wizard 8/pause 200/speak Wizard \"{{i18n:Event2.9}}\"/pause 200/emote {{ModId}}_Tantelot 28/speak {{ModId}}_Tantelot \"{{i18n:Event2.10}}\"/pause 200/speak Wizard \"{{i18n:Event2.11}}\"/pause 200/emote {{ModId}}_Tantelot 20/speak {{ModId}}_Tantelot \"{{i18n:Event2.12}}\"/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_Flower": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_Flower"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Guild",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 10,
+						"Y": 12
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Bookshelf}}"
+					}
+				},
+				{
+					"Position": {
+						"X": 11,
+						"Y": 12
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Bookshelf}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 2,
+						"Y": 75
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 3,
+						"Y": 75
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 4,
+						"Y": 75
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 0,
+						"Y": 76
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 0,
+						"Y": 75
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				},
+				{
+					"Position": {
+						"X": 1,
+						"Y": 75
+					},
+					"Layer": "Buildings",
+					"Remove": true
+				}
+			]
+		}
+	]
+}
