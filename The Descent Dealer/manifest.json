@@ -1,0 +1,18 @@
+{
+    "Name": "The Descent Dealer",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Adds a shop to the mines.",
+    "UniqueID": "NotAGardener.MS",
+    "UpdateKeys": ["Nexus:31960"],
+    "MinimumApiVersion": "4.0.0",
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+          "IsRequired": true
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

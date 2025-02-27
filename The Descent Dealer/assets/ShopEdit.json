@@ -1,0 +1,56 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{ModId}}_MineShop": {
+					"Owners": [
+					{
+						"Name": "AnyOrNone",
+						"Dialouge": "{{i18n: Dialogue}}",
+					},
+					],
+					"Items": [
+						{
+							"Id": "{{ModId}}_Salad",
+							"ItemId": "(O)196",
+							"Price": 100
+						},
+						{
+							"Id": "{{ModId}}_TroutSoup",
+							"ItemId": "(O)219",
+							"Price": 35
+						},
+						{
+							"Id": "{{ModId}}_Eggplantparma",
+							"ItemId": "(O)231",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Tonic",
+							"ItemId": "(O)349",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Staircase",
+							"ItemId": "(BC)71",
+							"Price": 350
+						},
+						{
+							"Id": "{{ModId}}_CherryBomb",
+							"ItemId": "(O)286",
+							"Price": 50
+						},
+						{
+							"Id": "{{ModId}}_Bomb",
+							"ItemId": "(O)287",
+							"Price": 75
+						}
+						]
+				}
+			}
+		}
+		]
+}
+	

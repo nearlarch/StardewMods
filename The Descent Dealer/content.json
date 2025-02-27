@@ -1,0 +1,142 @@
+{
+	"Format": "2.4.0",
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/ShopEdit.json",
+		},
+		{
+			
+			"Action": "EditMap",
+			"Target": "Maps/Mines/45",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 6,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/12",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 44,
+				"Y": 9,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/6",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 8,
+				"Y": 36,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/18",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 8,
+				"Y": 3,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/41",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 26,
+				"Y": 19,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/56",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 5,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/59",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 9,
+				"Y": 22,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/60",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 37,
+				"Y": 30,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/58",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 11,
+				"Y": 5,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/24",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 19,
+				"Y": 3,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/26",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 9,
+				"Width": 2,
+				"Height": 2,
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mines/2",
+			"FromFile": "assets/Shop.tmx",
+			"ToArea": {
+				"X": 6,
+				"Y": 3,
+				"Width": 2,
+				"Height": 2
+			}
+		}
+	]
+}
