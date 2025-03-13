@@ -1,0 +1,11 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"Entries": {
+			"{{ModId}}_BookQuest": "I lost my favorite book! I am so close to the end, can you help me find it? I remember placing it down on a table somewhere in Pelican town. ^ -Willow %item quest {{ModId}}_Test true %%[#]Willows Lost Book"
+		}
+	}
+	]
+}

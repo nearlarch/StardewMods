@@ -1,0 +1,290 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_House1",
+			"FromFile": "Assets/Maps/House1.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_House1": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_House1"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_OldHouse",
+			"FromFile": "Assets/Maps/Abandonment.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_OldHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_OldHouse"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_LowShop",
+			"FromFile": "Assets/Maps/LowShop.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_LowShop": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_LowShop"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_TownHall",
+			"FromFile": "Assets/Maps/TownHall.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_TownHall": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_TownHall"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_TimbergateMarket",
+			"FromFile": "Assets/Maps/TimbergateMarket.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_TimbergateMarket": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_TimbergateMarket"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_TimbergateCafe",
+			"FromFile": "Assets/Maps/TimbergateCafe.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_TimbergateCafe": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_TimbergateCafe"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_House3",
+			"FromFile": "Assets/Maps/House3.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_House3": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_House3"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_TimbergateTown",
+			"FromFile": "Assets/Maps/Timbergate.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_TimbergateTown": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_TimbergateTown"
+					}
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_House2",
+			"FromFile": "Assets/Maps/House2.tmx"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModId}}_House2": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_House2"
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House1",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 5
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Paper.1}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House1",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 1,
+						"Y": 8
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Bookshelf.1}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House1",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 11,
+						"Y": 7
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Toys}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House1",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 6,
+						"Y": 5
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Toys}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House1",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 10
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Toys}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"{{ModId}}_GoneLetter": "{{i18n:GoneLetter}}"
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_OldHouse",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 10,
+						"Y": 10
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Letter \"{{ModId}}_GoneLetter\""
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House2",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 2,
+						"Y": 4
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Axe}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_House2",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 2,
+						"Y": 4
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "MineSign {{i18n:Axe}}"
+					}
+				}
+			]
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"MapProperties": {
+				"NPCWarp": "7 12 {{ModId}}_TimbergateTown 37 6"
+			}
+		}
+	]
+}

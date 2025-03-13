@@ -1,0 +1,61 @@
+{
+	"Format": "2.5.0",
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/MapInclude.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/NPCS.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Mail.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/ShopEdit.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Events.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Items.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Quests.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/WarpSections",
+			"Entries": {
+				"{{ModId}}_Timbergate": {
+					"Id": "{{ModId}}_TimbergateTown",
+					"DisplayName": "{{i18n:Timbergate}}"
+				}
+			},
+			"When": {
+				"HasMod |contains=CJBok.CheatsMenu": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/Pathoschild.CentralStation/Stops",
+			"Entries": {
+				"{{ModId}}_Timergate": {
+					"DisplayName": "Timbergate",
+					"ToLocation": "{{ModId}}_TimbergateTown",
+					"Network": "Bus",
+					"ToTile": {
+						"X": 37,
+						"Y": 5
+					}
+				}
+			}
+		}
+	]
+}

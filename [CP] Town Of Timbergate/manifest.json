@@ -1,0 +1,11 @@
+{
+    "Name": "Town of Timbergate",
+    "Author": "NotAGardener",
+    "Version": "1.0.0",
+    "Description": "Adds a new area with the use of Central Station",
+    "UniqueID": "NotAGardener.TT",
+    "UpdateKeys": [ "Nexus:32321" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    }
+}

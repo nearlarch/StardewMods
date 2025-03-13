@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Data/Events/{{ModId}}_House1",
+			"FromFile": "Assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/{{ModId}}_House1",
+			"Entries": {
+				"{{ModId}}_Bills/Friendship {{ModId}}_Dale 500": "Icicles/-100 -100/farmer -100 -100 2 {{ModId}}_Dale 11 10 2/skippable/viewport 9 8/ShowFrame {{ModId}}_Dale 21/pause 450/emote {{ModId}}_Dale 28/playsound doorOpen/warp farmer 7 13/emote {{ModID}}_Dale 16/playsound batScreech/jump {{ModId}}_Dale 6/move {{ModId}}_Dale 0 2 1/move farmer 0 -5 1/move farmer 4 0 2/FaceDirection {{ModId}}_Dale 0/pause 200/speak {{ModId}}_Dale \"{{i18n:DaleEventBill.1}}\"/emote farmer 8/pause 200/move farmer 0 3 1/pause 150/emote {{ModId}}_Dale 28/FaceDirection farmer 1/emote farmer 16/pause 100/emote {{ModId}}_Dale 28/pause 200/move farmer 0 -2 2/pause 200/speak {{ModId}}_Dale \"{{i18n:DaleEventBill.2}}\"/pause 200/speak {{ModId}}_Dale \"{{i18n:DaleEventBill.4}}\"/pause 200/speak {{ModId}}_Dale \"{{i18n:DaleEventBill.5}}\"/pause 200/speak {{ModId}}_Dale \"{{i18n:DaleEventBill.3}}\"/pause 200/move farmer 0 60 0 true/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Entries": {
+				"{{ModId}}_Argue/Friendship Jodi 500": "Winter1/-100 -100/farmer -100 -100 2 {{ModId}}_Dale 5 14 3 Jodi 3 14 1 Vincent 11 21 3/skippable/viewport 6 16/pause 200/speak Jodi \"{{i18n:JodiArgue.1}}\"/pause 150/speak {{ModId}}_Dale \"{{i18n:JodiArgue.2}}\"/FaceDirection {{ModId}}_Dale 0/pause 200/FaceDirection {{ModId}}_Dale 2/pause 200/FaceDirection {{ModId}}_Dale 3/pause 200/speak Jodi \"{{i18n:JodiArgue.3}}\"/pause 200/emote {{ModId}}_Dale 40/emote Jodi 12/pause 200/speak Jodi \"{{i18n:JodiArgue.4}}\"/pause 200/emote {{ModId}}_Dale 28/pause 150/speak {{ModId}}_Dale \"{{i18n:JodiArgue.5}}\"/pause 150/jump Jodi 6/emote Jodi 16/speak Jodi \"{{i18n:JodiArgue.6}}\"/pause 200/move Vincent 0 -2 0/DoAction 11 18/move Vincent 0 -4 3 true/speak {{ModId}}_Dale \"{{i18n:JodiArgue.7}}\"/speak Jodi \"{{i18n:JodiArgue.8}}\"/speak {{ModId}}_Dale \"{{i18n:JodiArgue.9}}\"/move Vincent -6 0 0 true/emote {{ModId}}_Dale 8/pause 50/FaceDirection {{ModId}}_Dale 2/speak Vincent \"{{i18n:JodiArgue.10}}\"/pause 200/speak Jodi \"{{i18n:JodiArgue.11}}\"/pause 150/move Vincent 6 0 2/move Vincent 0 2 2/DoAction 11 18/move Vincent 0 4 3 true/speak Jodi \"{{i18n:JodiArgue.12}}\"/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SeedShop",
+			"Entries": {
+			"{{ModId}}_Comp/Friendship {{ModId}}_Mark 500": "musicboxsong/-100 -100/farmer 5 19 0 Pierre 4 17 2 {{ModId}}_Mark 6 27 0/skippable/viewport 6 23/playsound doorOpen/move {{ModId}}_Mark 0 -2 0/pause 200/FaceDirection {{ModId}}_Mark 1/pause 150/FaceDirection {{ModId}}_Mark 0/pause 150/FaceDirection {{ModId}}_Mark 3/speak {{ModId}}_Mark \"{{i18n:Comp.1}}\"/speed {{ModId}}_Mark 2/move {{ModId}}_Mark 0 -6 3 true/viewport move 0 -16 300/move farmer 2 0 3 true/speed {{ModId}}_Mark 2/move {{ModId}}_Mark -1 0 0/pause 150/speak Pierre \"{{i18n:Comp.2}}\"/pause 200/speak {{ModId}}_Mark \"{{i18n:Comp.3}}\"/pause 150/speak Pierre \"{{i18n:Comp.4}}\"/emote farmer 32/pause 200/speak {{ModId}}_Mark \"{{i18n:Comp.5}}\"/pause 100/speak Pierre \"{{i18n:Comp.6}}\"/pause 150/emote Pierre 12/speak Pierre \"{{i18n:Comp.7}}\"/move {{ModId}}_Mark 0 100 0 true/end"
+			}
+		}
+	]
+}

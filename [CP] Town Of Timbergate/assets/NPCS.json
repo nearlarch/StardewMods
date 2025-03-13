@@ -1,0 +1,481 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Screwball",
+			"FromFile": "assets/Sprites/SmallThing.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Screwball",
+			"FromFile": "assets/Portraits/SmallThing.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Screwball",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Screwball",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Screwball": {
+					"DisplayName": "{{i18n:Screwball}}",
+					"BirthSeason": "Summer",
+					"BirthDay": 7,
+					"HomeRegion": "Other",
+					"Gender": "Undefined",
+					"Language": "Dwarvish",
+					"Age": "Child",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
+					"CanReceiveGifts": "faLse",
+					"CanSocialize": "false",
+					"CanVisitIsland": "false",
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_LowShop",
+							"Tile": {
+								"X": 10,
+								"Y": 6
+							},
+							"Direction": "down"
+						}
+					],
+					"TextureName": null,
+					"Appearance": [],
+					"MugShotSourceRect": null,
+					"Size": {
+						"X": 16,
+						"Y": 24
+					}
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Screwball",
+			"Entries": {
+				"spring": "{{i18n:springScrew}}",
+				"summer": "{{i18n:summerScrew}}",
+				"fall": "{{i18n:fallScrew}}",
+				"winter": "{{i18n:winterScrew}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Screwball",
+			"Entries": {
+				"spring": "600 {{ModId}}_LowShop 10 6 2",
+				"summer": "600 {{ModId}}_LowShop 10 6 2",
+				"fall": "600 {{ModId}}_LowShop 10 6 2",
+				"winter": "600 {{ModId}}_LowShop 10 6 2"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Flint",
+			"FromFile": "assets/Sprites/Flint.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Flint",
+			"FromFile": "assets/Portraits/Flint.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Flint",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Flint",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Strings/schedules/{{ModId}}_Flint",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Flint": {
+					"DisplayName": "{{i18n:Flint}}",
+					"BirthSeason": "Spring",
+					"BirthDay": 4,
+					"HomeRegion": "Other",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
+					"CanVisitIsland": "false",
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_House2",
+							"Tile": {
+								"X": 9,
+								"Y": 5
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/{{ModId}}_Flint",
+			"Entries": {
+				"Weights": "{{i18n:WeightsFlint}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"flintweight": "17 18/19 19 19 19 20 20 20 20 21 21 21 21/23"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Flint",
+			"Entries": {
+				"Introduction": "{{i18n:IntroductionFlint}}",
+				"Mon": "{{i18n:MonFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Tue": "{{i18n:TueFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Wed": "{{i18n:WenFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Thu": "{{i18n:ThuFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Fri": "{{i18n:FriFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Sat": "{{i18n:SatFlint.{{Random: {{Range: 1,3}} }} }}",
+				"Sun": "{{i18n:SunFlint.{{Random: {{Range: 1,3}} }} }}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Flint",
+			"Entries": {
+				"spring": "800 {{ModId}}_TownHall 4 8 2/1000 {{ModId}}_House2 10 12 flintweight \"Strings\\schedules\\{{ModId}}_Flint:Weights\" ",
+				"summer": "",
+				"fall": "",
+				"winter": ""
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{ModId}}_Flint": "{{i18n:RainFlint}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModId}}_Flint": "{{i18n:LoveFlint}}/606 591 841/{{i18n:LikeFlint}}/428 613 614/{{i18n:HateFlint}}/410 419/{{i18n:DislikeFlint}}/346 341/{{i18n:NeutraldFlint}}//"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Dale",
+			"FromFile": "assets/Sprites/Dale.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Dale",
+			"FromFile": "assets/Portraits/Dale.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Dale",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Dale",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Dale": {
+					"DisplayName": "{{i18n:Dale}}",
+					"BirthSeason": "Fall",
+					"BirthDay": 15,
+					"HomeRegion": "Other",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
+					"CanVisitIsland": "false",
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_House1",
+							"Tile": {
+								"X": 9,
+								"Y": 5
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"dale_cleaning": "17/18 18 19 19/20"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Dale",
+			"Entries": {
+				"Introduction": "{{i18n:Introduction}}",
+				"Mon": "{{i18n:Mon.{{Random: {{Range: 1,3}} }} }}",
+				"Tue": "{{i18n:Tue.{{Random: {{Range: 1,3}} }} }}",
+				"Wed": "{{i18n:Wen.{{Random: {{Range: 1,3}} }} }}",
+				"Thu": "{{i18n:Thu.{{Random: {{Range: 1,3}} }} }}",
+				"Fri": "{{i18n:Fri.{{Random: {{Range: 1,3}} }} }}",
+				"Sat": "{{i18n:Sat.{{Random: {{Range: 1,3}} }} }}",
+				"Sun": "{{i18n:Sun.{{Random: {{Range: 1,3}} }} }}",
+				"{{ModId}}_TimbergateCafe": "{{i18n:Cafe.{{Random: {{Range: 1,3}} }} }}",
+				"SamHouse": "{{i18n:SamHouse.{{Random: {{Range: 1,3}} }} }}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Dale",
+			"Entries": {
+				"Mon": "900 {{ModId}}_TimbergateCafe 10 6 2/1200 {{ModId}}_TimbergateCafe 9 6 0 dale_cleaning/1210 {{ModId}}_TimbergateCafe 18 5 0/1220 {{ModId}}_TimbergateCafe 10 6 2/1600 {{ModId}}_House1 10 12 2",
+				"Tue": "900 {{ModId}}_TimbergateCafe 10 6 2/1200 {{ModId}}_TimbergateCafe 9 6 0 dale_cleaning/1210 {{ModId}}_TimbergateCafe 18 5 0/1220 {{ModId}}_TimbergateCafe 10 6 2/1600 {{ModId}}_House1 10 12 2",
+				"Wed": "900 {{ModId}}_TimbergateCafe 10 6 2/1200 {{ModId}}_TimbergateCafe 9 6 0 dale_cleaning/1210 {{ModId}}_TimbergateCafe 18 5 0/1220 {{ModId}}_TimbergateCafe 10 6 2/1600 {{ModId}}_House1 10 12 2",
+				"Thu": "900 {{ModId}}_TimbergateCafe 10 6 2/1200 {{ModId}}_TimbergateCafe 9 6 0 dale_cleaning/1210 {{ModId}}_TimbergateCafe 18 5 0/1220 {{ModId}}_TimbergateCafe 10 6 2/1600 {{ModId}}_House1 10 12 2",
+				"Fri": "900 {{ModId}}_TimbergateCafe 10 6 2/1200 {{ModId}}_TimbergateCafe 9 6 0 dale_cleaning/1210 {{ModId}}_TimbergateCafe 18 5 0/1220 {{ModId}}_TimbergateCafe 10 6 2/1500 {{ModId}}_TimbergateMarket 35 15 0/1600 {{ModId}}_House1 11 9",
+				"Sat": "830 {{ModId}}_TimbergateTown 15 16 2/1010 Town 32 90 1/1200 Town 17 11 1/1700 {{ModId}}_House1 9 7",
+				"Sun": "830 {{ModId}}_TimbergateTown 15 16 2/1000 {{ModId}}_TimbergateTown 47 23 3/1200 {{ModId}}_TimbergateTown 4 22 2/1400 {{ModId}}_House1 9 7"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{ModId}}_Dale": "{{i18n:Rain}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModId}}_Dale": "{{i18n:LoveDale}}/606 591 841/{{i18n:LikeDale}}/428 613 614/{{i18n:HateDale}}/410 419/{{i18n:DislikeDale}}/346 341/{{i18n:NeutraldDale}}//"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Mark",
+			"FromFile": "assets/Sprites/Mark.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Mark",
+			"FromFile": "assets/Portraits/Mark.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Mark",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Mark",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Mark": {
+					"DisplayName": "{{i18n:Mark}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 18,
+					"HomeRegion": "Other",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"CanVisitIsland": "false",
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_TimbergateMarket",
+							"Tile": {
+								"X": 40,
+								"Y": 5
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Mark",
+			"Entries": {
+				"Introduction": "{{i18n:IntroductionMark}}",
+				"Mon": "{{i18n:MonMark.{{Random: {{Range: 1,3}} }} }}",
+				"Tue": "{{i18n:TueMark.{{Random: {{Range: 1,3}} }} }}",
+				"Wed": "{{i18n:WenMark.{{Random: {{Range: 1,3}} }} }}",
+				"Thu": "{{i18n:ThuMark.{{Random: {{Range: 1,3}} }} }}",
+				"Fri": "{{i18n:FriMark.{{Random: {{Range: 1,3}} }} }}",
+				"Sat": "{{i18n:SatMark.{{Random: {{Range: 1,3}} }} }}",
+				"Sun": "{{i18n:SunMark.{{Random: {{Range: 1,3}} }} }}",
+				"{{ModId}}_TimbergateCafe": "{{i18n:CafeMark.{{Random: {{Range: 1,3}} }} }}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Mark",
+			"Entries": {
+				"Mon": "830 {{ModId}}_TimbergateMarket 43 18 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Tue": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Wed": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Thu": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Fri": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Sat": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5",
+				"Sun": "830 {{ModId}}_TimbergateMarket 43 17 3/1400 {{ModId}}_TimbergateCafe 14 8 0/1450 {{ModId}}_TimbergateMarket 40 5"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{ModId}}_Mark": "{{i18n:RainMark}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModId}}_Mark": "{{i18n:LoveMark}}/773 746 797/{{i18n:LikeMark}}/787 734 725/{{i18n:HateMark}}/638 637 636 635 634 633/{{i18n:DislikeMark}}/441/{{i18n:NeutraldMark}}//"
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/{{ModId}}_Willow",
+			"FromFile": "assets/Sprites/Willow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Willow",
+			"FromFile": "assets/Portraits/Willow.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{ModId}}_Willow",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/schedules/{{ModId}}_Willow",
+			"FromFile": "assets/Blank.json"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{ModId}}_Willow": {
+					"DisplayName": "{{i18n:Willow}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 9,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Positive",
+					"CanVisitIsland": "false",
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "{{ModId}}_House3",
+							"Tile": {
+								"X": 11,
+								"Y": 11
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Willow",
+			"Entries": {
+				"Introduction": "{{i18n:IntroductionWillow}}",
+				"Mon": "{{i18n:MonWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Tue": "{{i18n:TueWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Wed": "{{i18n:WenWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Thu": "{{i18n:ThuWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Fri": "{{i18n:FriWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Sat": "{{i18n:SatWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Sun": "{{i18n:SunWillow.{{Random: {{Range: 1,3}} }} }}",
+				"{{ModId}}_TimbergateCafe": "{{i18n:CafeWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Town": "{{i18n:TownWillow.{{Random: {{Range: 1,3}} }} }}",
+				"ManorHouse": "{{i18n:ManorWillow.{{Random: {{Range: 1,3}} }} }}",
+				"SeedShop": "{{i18n:PierWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Beach": "{{i18n:BeachWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Mon2": "{{i18n:MonWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Tue2": "{{i18n:TueWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Wed2": "{{i18n:WenWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Thu2": "{{i18n:ThuWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Fri2": "{{i18n:FriWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Sat2": "{{i18n:SatWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Sun2": "{{i18n:SunWillow.{{Random: {{Range: 1,3}} }} }}",
+				"{{ModId}}_TimbergateCafe2": "{{i18n:CafeWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Town_18_18": "$query PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Willow 500#{{i18n:Playground2Heart.{{Random: {{Range: 1,3}} }} }} |{{i18n:Playground.{{Random: {{Range: 1,3}} }} }}",
+				"Town2": "{{i18n:TownWillow.{{Random: {{Range: 1,3}} }} }}",
+				"ManorHouse2": "{{i18n:ManorWillow.{{Random: {{Range: 1,3}} }} }}",
+				"SeedShop_39_19": "$query PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_Willow 500#{{i18n:PierWillow2Heart.{{Random: {{Range: 1,3}} }} }} |{{i18n:PierWillow.{{Random: {{Range: 1,3}} }} }}",
+				"SeedShop2": "{{i18n:PierWillow.{{Random: {{Range: 1,3}} }} }}",
+				"Beach2": "{{i18n:BeachWillow.{{Random: {{Range: 1,3}} }} }}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{ModId}}_Willow",
+			"Entries": {
+				"spring": "900 {{ModId}}_TownHall 20 11 0/1200 Town 18 15 0/1400 {{ModId}}_TimbergateCafe 7 6 3/1600 {{ModId}}_House3 11 11",
+				"summer": "900 {{ModId}}_TownHall 20 11 2/1200 ManorHouse 2 6 0/1400 SeedShop 39 19 0/1600 {{ModId}}_House3 11 11",
+				"fall": "900 {{ModId}}_TownHall 20 11 0/1200 Town 18 15 0/1400 {{ModId}}_TimbergateCafe 7 6 3/1600 {{ModId}}_House3 11 11",
+				"winter": "1000 {{ModId}}_TimbergateCafe 7 6 3/1200 SeedShop 39 19 0/1400 Beach 14 39 2/1600 {{ModId}}_House3 11 11"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{ModId}}_Willow": "{{i18n:RainWillow}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{ModId}}_Willow": "{{i18n:LoveWillow}}/408 416 421/{{i18n:LikeWillow}}/208 18 20/{{i18n:HateWillow}}/167 168 169 170 171 172/{{i18n:DislikeWillow}}/70{{i18n:NeutraldWillow}}//"
+			}
+		}
+	]
+}

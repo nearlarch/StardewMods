@@ -1,0 +1,233 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/GarbageCans",
+			"TargetField": [
+				"GarbageCans"
+			],
+			"Entries": {
+				"{{ModId}}_SupermarketCan": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_ParsnipSeed",
+							"ItemId": "(O)472"
+						},
+						{
+							"ID": "{{ModId}}_Cailiseed",
+							"ItemId": "(O)474"
+						},
+						{
+							"Id": "{{ModId}}_Radish",
+							"ItemId": "(O)484"
+						},
+						{
+							"Id": "{{ModId}}_Pumpkin",
+							"ItemId": "(O)490"
+						},
+						{
+							"Id": "{{ModId}}_Rare",
+							"ItemId": "(O)397"
+						}
+					]
+				},
+				"{{ModId}}_HouseCan": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_Joja",
+							"ItemId": "(O)167"
+						},
+						{
+							"ID": "{{ModId}}_PinkCake",
+							"ItemId": "(O)221"
+						},
+						{
+							"ID": "{{ModId}}_Bread",
+							"ItemId": "(O)216"
+						},
+						{
+							"ID": "{{ModId}}_Salad",
+							"ItemId": "(O)196"
+						},
+						{
+							"ID": "{{ModId}}_Pizza",
+							"ItemId": "(O)206"
+						},
+						{
+							"ID": "{{ModId}}_Tomato",
+							"ItemId": "(O)256"
+						}
+					]
+				},
+				"{{ModId}}_HouseCan2": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_Joja",
+							"ItemId": "(O)167"
+						},
+						{
+							"ID": "{{ModId}}_PinkCake",
+							"ItemId": "(O)221"
+						},
+						{
+							"ID": "{{ModId}}_Bread",
+							"ItemId": "(O)216"
+						},
+						{
+							"ID": "{{ModId}}_Salad",
+							"ItemId": "(O)196"
+						},
+						{
+							"ID": "{{ModId}}_Pizza",
+							"ItemId": "(O)206"
+						},
+						{
+							"ID": "{{ModId}}_Tomato",
+							"ItemId": "(O)256"
+						}
+					]
+				},
+				"{{ModId}}_HouseCan3": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_Joja",
+							"ItemId": "(O)167"
+						},
+						{
+							"ID": "{{ModId}}_PinkCake",
+							"ItemId": "(O)221"
+						},
+						{
+							"ID": "{{ModId}}_Bread",
+							"ItemId": "(O)216"
+						},
+						{
+							"ID": "{{ModId}}_Salad",
+							"ItemId": "(O)196"
+						},
+						{
+							"ID": "{{ModId}}_Pizza",
+							"ItemId": "(O)206"
+						},
+						{
+							"ID": "{{ModId}}_Tomato",
+							"ItemId": "(O)256"
+						}
+					]
+				},
+				"{{ModId}}_HouseCan4": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_Joja",
+							"ItemId": "(O)167"
+						},
+						{
+							"ID": "{{ModId}}_PinkCake",
+							"ItemId": "(O)221"
+						},
+						{
+							"ID": "{{ModId}}_Bread",
+							"ItemId": "(O)216"
+						},
+						{
+							"ID": "{{ModId}}_Salad",
+							"ItemId": "(O)196"
+						},
+						{
+							"ID": "{{ModId}}_Pizza",
+							"ItemId": "(O)206"
+						},
+						{
+							"ID": "{{ModId}}_Tomato",
+							"ItemId": "(O)256"
+						}
+					]
+				},
+				"{{ModId}}_HallCan": {
+					"Items": [
+						{
+							"ID": "{{ModId}}_Soggy",
+							"ItemId": "(O)175"
+						},
+						{
+							"ID": "{{ModId}}_Broken",
+							"ItemId": "(O)171"
+						},
+						{
+							"ID": "{{ModId}}_Glasses",
+							"ItemId": "(O)170"
+						},
+						{
+							"ID": "{{ModId}}_Rib",
+							"ItemId": "(O)115"
+						},
+						{
+							"ID": "{{ModId}}_Tart",
+							"ItemId": "(O)234"
+						}
+					]
+				}
+			}
+		}
+	]
+}
